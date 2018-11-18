@@ -1,30 +1,37 @@
-body{
-    margin: 0;
+.wrapper{
+   font-size: 1.5em;
+   width: 100%;
+   height: 100vh;
+  display: grid;
+   grid-template-areas: 
+   "photo"
+   "heading"
+   "about"
+   "details";
+   grid-template-columns: 1fr;
+   grid-template-rows: 450px 600px 250px 250px;
+
 }
 #top{
-   display: flex;
-   flex-direction: column;
-   align-items: center;
+   
     background-color: crimson;
     color: white;
-    
-   
+    align-items: center;
 }
 #photo{
-    
+   
+   
     grid-area: photo;
 }
 #photo1{
-width: auto;
-height: auto;
-   max-width: 300px;
-   max-height: 200px;
+    
+   width: 300px;
   
 }
 
 #heading{
    
-  padding: 2vw;
+  padding: 5vw;
   grid-area: heading;
 }
 
@@ -55,7 +62,6 @@ height: auto;
         display: flex;
         justify-content: center;
         margin: 20px;
-        flex-wrap: wrap;
         
     }
     
@@ -95,9 +101,7 @@ height: auto;
     }
 
 #bottom{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    
     background: url(abstract/8020.jpg);
    
    
@@ -105,13 +109,12 @@ height: auto;
 #about{
    margin: 5vw;
    grid-area: about;
-   text-align: center;
 }
 #h_about{
    font-family:  Montserrat;
     font-style: Bold;
     font-size: 24px;
-        
+        text-align: Left;
         line-height: 29px;
 
 }
@@ -121,7 +124,7 @@ height: auto;
 Font-Style: Regular;
 Font-Size: 16px;
 Line-Height: 24px;
-
+text-Align: Left;
 }
 #button{
     border: 2px solid crimson;

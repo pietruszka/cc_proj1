@@ -1,31 +1,26 @@
-body{
-    margin: 0;
-}
+
 #top{
-   display: flex;
-   flex-direction: column;
-   align-items: center;
+    display: grid;
+    grid-template-columns: 3fr auto ;
+    grid-template-rows: 250px;
+    grid-gap: 5px;
     background-color: crimson;
     color: white;
-    
-   
 }
 #photo{
-    
-    grid-area: photo;
+    display: flex;
+    align-items: flex-end;
+    margin: 0 5vw;
 }
 #photo1{
-width: auto;
-height: auto;
-   max-width: 300px;
-   max-height: 200px;
+    
+    max-width: 300px;
   
 }
 
 #heading{
    
-  padding: 2vw;
-  grid-area: heading;
+  padding: 5vw;
 }
 
 #heading1 {
@@ -44,7 +39,7 @@ height: auto;
     text-align: center;
     margin: 0%;
     opacity: 0.9;
-    }
+    grid-area: 1/2/2/4}
 
     a {
         color: white;   
@@ -55,7 +50,6 @@ height: auto;
         display: flex;
         justify-content: center;
         margin: 20px;
-        flex-wrap: wrap;
         
     }
     
@@ -95,23 +89,20 @@ height: auto;
     }
 
 #bottom{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: url(abstract/8020.jpg);
-   
+    display: grid;
+    grid-template-columns: 4fr auto;
+    grid-template-rows: 600px;
+    grid-gap: 5px;
    
 }
 #about{
    margin: 5vw;
-   grid-area: about;
-   text-align: center;
 }
 #h_about{
    font-family:  Montserrat;
     font-style: Bold;
     font-size: 24px;
-        
+        text-align: Left;
         line-height: 29px;
 
 }
@@ -121,7 +112,7 @@ height: auto;
 Font-Style: Regular;
 Font-Size: 16px;
 Line-Height: 24px;
-
+text-Align: Left;
 }
 #button{
     border: 2px solid crimson;
@@ -147,7 +138,6 @@ Line-Height: 24px;
  Font-Size: 16px;
  Line-Height: 29px;
  text-Align: Left;
- grid-area: details;
 }
 .table{
     padding: 1vw;

@@ -1,6 +1,4 @@
-body{
-    margin: 0;
-}
+
 #top{
    display: flex;
    flex-direction: column;
@@ -16,7 +14,7 @@ body{
 }
 #photo1{
 width: auto;
-height: auto;
+height: auto;;
    max-width: 300px;
    max-height: 200px;
   

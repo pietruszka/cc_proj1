@@ -1,6 +1,4 @@
-body{
-    margin: 0;
-}
+
 #top{
    display: flex;
    flex-direction: column;
@@ -15,8 +13,7 @@ body{
     grid-area: photo;
 }
 #photo1{
-width: auto;
-height: auto;
+    
    max-width: 300px;
    max-height: 200px;
   
