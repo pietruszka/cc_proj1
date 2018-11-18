@@ -110,12 +110,12 @@ height: auto;
     margin: 0 2vw;
      flex-wrap: wrap;
     justify-content: center;
-   
+    justify-content: center;
    
 }
 #about{
-   margin: 3vw 5vw 5vw 0;
-   width: 55vw;
+   margin: 4vw;
+   width: 60vw;
    text-align: center;
 }
 #h_about{

@@ -107,15 +107,15 @@ height: auto;
     display: flex;
     flex-direction: row; 
     align-items: center;
-    margin: 0 2vw;
+    margin: 0 4vw;
      flex-wrap: wrap;
-    justify-content: center;
+    
    
    
 }
 #about{
-   margin: 3vw 5vw 5vw 0;
-   width: 55vw;
+   margin: 5vw;
+   width: 50vw;
    text-align: center;
 }
 #h_about{
@@ -130,7 +130,7 @@ height: auto;
    color: #666666;
    Font-Family: Raleway;
 Font-Style: Regular;
-text-align: justify;
+
 Line-Height: 1.7em;
 
 }

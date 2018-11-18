@@ -1,7 +1,6 @@
 body{
     margin: 0 0 1vw 0;
     font-size: 15px;
-   
 
 }
 #top{
@@ -9,7 +8,6 @@ body{
    flex-direction: row;
    flex-wrap: wrap;
    align-items: center;
-   justify-content: center;
    
     background-color: crimson;
     color: white;
@@ -19,7 +17,7 @@ body{
 }
 #photo{
 align-self: flex-end;
-    
+    margin-left: 5vw;
    
 }
 #photo1{
@@ -27,8 +25,7 @@ width: auto;
 height: auto;
    max-width: 300px;
    max-height: 200px;
-   border: 1px solid white;
- 
+  margin: 0;
 }
 
 #heading{
@@ -74,7 +71,7 @@ height: auto;
        
         transition: all 0.3s ease-in-out;
         border-radius: 100%;
-        border: groove 2px white;
+        border: solid 1px white;
     
         width: 50px;
         height: 50px;
@@ -88,7 +85,7 @@ height: auto;
     .nav-item:hover {
         cursor: pointer;
         
-        opacity: 0.8;
+        opacity: 0.5;
     
     }
     
@@ -105,17 +102,15 @@ height: auto;
 
 #bottom{
     display: flex;
-    flex-direction: row; 
+    flex-direction: column;
     align-items: center;
-    margin: 0 2vw;
-     flex-wrap: wrap;
-    justify-content: center;
+    background: url(abstract/8020.jpg);
    
    
 }
 #about{
-   margin: 3vw 5vw 5vw 0;
-   width: 55vw;
+   margin: 5vw;
+   
    text-align: center;
 }
 #h_about{
@@ -130,7 +125,7 @@ height: auto;
    color: #666666;
    Font-Family: Raleway;
 Font-Style: Regular;
-text-align: justify;
+
 Line-Height: 1.7em;
 
 }
@@ -149,12 +144,6 @@ Line-Height: 1.7em;
     Font-Family: Raleway;
 }
 
-#button:hover {
-    cursor: pointer;
-    background-color: bisque;
-    transform: scale(1.03);
-
-}
 
 
 #details{
@@ -165,12 +154,10 @@ Line-Height: 1.7em;
  
  Line-Height: 19px;
  text-Align: Left;
- 
- 
+ grid-area: details;
 }
 .table{
     padding: 0.5vw;
-    
 }
 
 

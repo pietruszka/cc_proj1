@@ -1,5 +1,5 @@
 body{
-    margin: 0 0 1vw 0;
+    margin: 0 0 1vw 0;justify-content: center;
     font-size: 15px;
    
 
@@ -107,15 +107,15 @@ height: auto;
     display: flex;
     flex-direction: row; 
     align-items: center;
-    margin: 0 2vw;
+    margin: 0 4vw;
      flex-wrap: wrap;
     justify-content: center;
    
    
 }
 #about{
-   margin: 3vw 5vw 5vw 0;
-   width: 55vw;
+   margin: 4vw;
+   width: 50vw;
    text-align: center;
 }
 #h_about{

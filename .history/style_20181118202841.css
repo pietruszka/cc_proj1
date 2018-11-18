@@ -92,7 +92,12 @@ height: auto;
     
     }
     
-    .nav-item a:hover {
+    .nav-item a:hover { .nav-item:hover {
+        cursor: pointer;
+        
+        opacity: 0.8;
+    
+    }
     
         opacity: 0.5;
     
@@ -105,17 +110,15 @@ height: auto;
 
 #bottom{
     display: flex;
-    flex-direction: row; 
+    flex-direction: column;
     align-items: center;
-    margin: 0 2vw;
-     flex-wrap: wrap;
-    justify-content: center;
+    
    
    
 }
 #about{
-   margin: 3vw 5vw 5vw 0;
-   width: 55vw;
+   margin: 5vw;
+   
    text-align: center;
 }
 #h_about{
@@ -130,7 +133,7 @@ height: auto;
    color: #666666;
    Font-Family: Raleway;
 Font-Style: Regular;
-text-align: justify;
+
 Line-Height: 1.7em;
 
 }
@@ -149,12 +152,6 @@ Line-Height: 1.7em;
     Font-Family: Raleway;
 }
 
-#button:hover {
-    cursor: pointer;
-    background-color: bisque;
-    transform: scale(1.03);
-
-}
 
 
 #details{
@@ -165,12 +162,10 @@ Line-Height: 1.7em;
  
  Line-Height: 19px;
  text-Align: Left;
- 
- 
+ grid-area: details;
 }
 .table{
     padding: 0.5vw;
-    
 }
 
 
