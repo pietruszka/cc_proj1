@@ -32,8 +32,8 @@ align-self: center;
 }
 
 #photo1:hover{
-    filter: grayscale(100%);
-    transition: all 1s ease-in-out;
+    filter: brightness(2);
+    transition: all 1s ease-in-out 0s;
     
 }
 #heading{
@@ -92,7 +92,8 @@ align-self: center;
     
     .nav-item:hover {
         cursor: pointer;
-        
+        transform: rotate(360deg);
+        transition: all 0.3s ease-in-out 0s;
         opacity: 0.8;
     
     }
@@ -100,6 +101,8 @@ align-self: center;
     .nav-item a:hover {
     
         opacity: 0.5;
+        transform: rotate(360deg);
+        transition: all 0.3s ease-in-out 0s;
     
     }
     
@@ -115,8 +118,7 @@ align-self: center;
     margin: 0 2vw;
      flex-wrap: wrap;
     justify-content: center;
-   
-   
+     
 }
 #about{
    margin: 3vw 5vw 5vw 0;
@@ -156,8 +158,9 @@ Line-Height: 1.7em;
 
 #button:hover {
     cursor: pointer;
-    background-color: bisque;
-    transform: scale(1.03);
+   
+    transform: scale(1.05);
+    transition: all 0.3s ease 0s;
    
 }
 
