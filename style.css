@@ -18,16 +18,16 @@ body{
    
 }
 #photo{
-align-self: flex-end;
-    
+align-self: center;
+
    
 }
 #photo1{
-width: auto;
-height: auto;
-   max-width: 300px;
-   max-height: 200px;
+
+   max-width: 55vw;
+   max-height: 35vh;
    border: 1px solid white;
+   
  
 }
 
