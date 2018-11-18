@@ -1,0 +1,164 @@
+.wrapper{
+   font-size: 1.5em;
+   width: 100%;
+   height: 100vh;
+   display: grid;
+   grid-template-areas: 
+   "photo"
+   "heading1"
+   "heading2"
+   "nav"
+   "about"
+   "details";
+   grid-template-columns: 1fr;
+   grid-template-rows: 130px 800px 250px 250px 250px;
+   
+
+}
+#top{
+   
+    /* background-color: crimson;
+    color: white; */
+}
+#photo{
+    display: flex;
+    align-items: flex-end;
+    margin: 0 5vw;
+    grid-area: photo;
+}
+#photo1{
+    
+    max-width: 300px;
+  
+}
+
+
+
+#heading1 {
+  
+    font-size: 40px;
+    font-weight: 700;
+        font-family: 'Lobster', cursive;
+    text-align: center;
+    margin:0;
+    grid-area: heading1;
+   }
+   #heading2 {
+  
+    font-size: 15px;
+    font-weight: 100;
+    font-family:  Montserrat;
+    text-align: center;
+    margin: 0%;
+    opacity: 0.9;
+    grid-area: heading2;
+    }
+
+    a {
+        color: white;   
+        text-decoration: none;
+        
+    }
+    .nav {
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+        grid-area: nav;
+        
+    }
+    
+    .nav-item {
+    
+        animation: show 0.5s ease-in-out forwards;
+       
+        transition: all 0.3s ease-in-out;
+        border-radius: 100%;
+        border: solid 1px white;
+    
+        width: 50px;
+        height: 50px;
+        margin: 0 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    
+    .nav-item:hover {
+        cursor: pointer;
+        
+        opacity: 0.5;
+    
+    }
+    
+    .nav-item a:hover {
+    
+        opacity: 0.5;
+    
+    }
+    
+    .nav-item a {
+        font-size: 28px;
+    
+    }
+
+#bottom{
+    
+    background: url(abstract/8020.jpg);
+   
+   
+}
+#about{
+   margin: 5vw;
+   grid-area: about;
+}
+#h_about{
+   font-family:  Montserrat;
+    font-style: Bold;
+    font-size: 24px;
+        text-align: Left;
+        line-height: 29px;
+
+}
+#p_about{
+   color: #666666;
+   Font-Family: Raleway;
+Font-Style: Regular;
+Font-Size: 16px;
+Line-Height: 24px;
+text-Align: Left;
+}
+#button{
+    border: 2px solid crimson;
+    border-radius: 25px;
+    background-color: white;
+    color: crimson;
+    
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    Font-Family: Raleway;
+}
+
+
+
+#details{
+    margin: 5vw;
+    color: #666666;
+    Font-Family: Raleway;
+ Font-Style: Regular;
+ Font-Size: 16px;
+ Line-Height: 29px;
+ text-Align: Left;
+ grid-area: details;
+}
+.table{
+    padding: 1vw;
+}
+
+
+
+
+

@@ -1,0 +1,175 @@
+body{
+    margin: 0 4vw 1vw 4vw;
+    font-size: 15px;
+   
+
+}
+#top{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+   
+    background-color: crimson;
+    color: white;
+    
+    
+   
+}
+#photo{
+align-self: flex-end;
+    
+   
+}
+#photo1{
+width: auto;
+height: auto;
+   max-width: 300px;
+   max-height: 200px;
+   border: 1px solid white;
+ 
+}
+
+#heading{
+   
+  padding: 3vw;
+  
+}
+
+#heading1 {
+  
+    font-size: 3em;
+    font-weight: 700;
+        font-family: 'Lobster', cursive;
+    text-align: center;
+    margin:0;
+   }
+   #heading2 {
+  
+    font-size: 1.2em;
+    font-weight: 100;
+    font-family:  Montserrat;
+    text-align: center;
+    margin: 0%;
+    opacity: 0.9;
+    }
+
+    a {
+        color: white;   
+        text-decoration: none;
+        
+    }
+    .nav {
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+        flex-wrap: wrap;
+        
+    }
+    
+    .nav-item {
+    
+        animation: show 0.5s ease-in-out forwards;
+       
+        transition: all 0.3s ease-in-out;
+        border-radius: 100%;
+        border: groove 2px white;
+    
+        width: 50px;
+        height: 50px;
+        margin: 0 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    
+    .nav-item:hover {
+        cursor: pointer;
+        
+        opacity: 0.8;
+    
+    }
+    
+    .nav-item a:hover {
+    
+        opacity: 0.5;
+    
+    }
+    
+    .nav-item a {
+        font-size: 28px;
+    
+    }
+
+#bottom{
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    
+   
+   
+}
+#about{
+   margin: 5vw;
+   
+   text-align: center;
+}
+#h_about{
+   font-family:  Montserrat;
+    font-style: Bold;
+    font-size: 1.5em;
+        
+        line-height: 29px;
+
+}
+#p_about{
+   color: #666666;
+   Font-Family: Raleway;
+Font-Style: Regular;
+
+Line-Height: 1.7em;
+
+}
+#button{
+    margin: 1vw;
+    border: 2px solid crimson;
+    border-radius: 25px;
+    background-color: white;
+    color: crimson;
+    
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    
+    Font-Family: Raleway;
+}
+
+#button:hover {
+    cursor: pointer;
+    background-color: bisque;
+    transform: scale(1.03);
+
+}
+
+
+#details{
+   
+    color: #666666;
+    Font-Family: Raleway;
+ Font-Style: Regular;
+ 
+ Line-Height: 19px;
+ text-Align: Left;
+ grid-area: details;
+}
+.table{
+    padding: 0.5vw;
+}
+
+
+
+
+
